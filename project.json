@@ -1,0 +1,22 @@
+{
+  "overview": "A stunning 3D animated website for Saanjh Restaurant in Lahore, Pakistan. Features a rotating 3D hero, interactive animated menu with modals, restaurant info, and prominent CTAs.",
+  "features": [
+    "3D animated rotating hero section",
+    "Interactive menu with 5 categories",
+    "Menu item detail modals with FoodPanda links",
+    "Restaurant info with map and rating",
+    "Order Now and Call Us CTAs",
+    "Smooth scroll animations throughout",
+    "Mobile-responsive design"
+  ],
+  "category": "showcase",
+  "tags": [
+    "restaurant",
+    "3d",
+    "animated",
+    "menu",
+    "lahore",
+    "food"
+  ],
+  "last_updated": "2026-04-17T19:56:32.239Z"
+}

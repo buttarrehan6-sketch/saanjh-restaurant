@@ -1,0 +1,21 @@
+// Version: 1.0.0
+type Category__206156138 = {#bbq; #drinks; #fish; #karahi; #naan_roti};
+type MenuItem__243732802 =
+  {
+    category : Category__206156138;
+    description : Text;
+    id : Nat;
+    name : Text;
+    price : ?Text;
+    spiceLevel : ?Text
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable menuItems :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?MenuItem__243732802]];
+      var elementIndex : Nat__490723111
+    }
+};

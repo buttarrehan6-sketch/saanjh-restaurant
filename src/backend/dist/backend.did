@@ -1,0 +1,32 @@
+type RestaurantInfo = 
+ record {
+   address: text;
+   hours: text;
+   name: text;
+   phone: text;
+   rating: float64;
+   ratingCount: nat;
+   services: vec text;
+   tagline: text;
+ };
+type MenuItem = 
+ record {
+   category: Category;
+   description: text;
+   id: nat;
+   name: text;
+   price: opt text;
+   spiceLevel: opt text;
+ };
+type Category = 
+ variant {
+   bbq;
+   drinks;
+   fish;
+   karahi;
+   naan_roti;
+ };
+service : {
+  getMenuItems: () -> (vec MenuItem) query;
+  getRestaurantInfo: () -> (RestaurantInfo) query;
+}
